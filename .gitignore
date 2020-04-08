@@ -1,5 +1,5 @@
 .vscode/
 .venv/
-mysite/polls/__pycache__/
-mysite/mysite/__pycache__/
+polling/mysite/__pycache__/
+polling/polls/__pycache__/
 *~
