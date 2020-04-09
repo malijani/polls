@@ -9,7 +9,8 @@ class Question(models.Model):
 
     def __str__(self):
         """ Printing object will return question_text : pub_date """
-        return f'{self.question_text} : {self.pub_date}\n'
+        #return f'{self.question_text} : {self.pub_date}\n'
+        return self.question_text
 
 class Choice(models.Model):
     """ Choice model (Each Question will have multiple Choices) """
@@ -22,4 +23,5 @@ class Choice(models.Model):
 
     def __str__(self):
         """ Printing object will return choice_text : votes """
-        return f'{self.choice_text} : {self.votes}'
+        #return f'{self.choice_text} : {self.votes}'
+        return self.choice_text
