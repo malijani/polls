@@ -2,4 +2,5 @@
 .venv/
 pollster/pollster/__pycache__/
 pollster/polls/__pycache__/
+pollster/polls/migrations/__pycache__/
 *~
