@@ -3,4 +3,5 @@
 pollster/pollster/__pycache__/
 pollster/polls/__pycache__/
 pollster/polls/migrations/__pycache__/
+pollster/pages/__pycache__/
 *~
